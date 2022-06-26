@@ -1,31 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import DisplayRecord from './displayRecord/displayRecord';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import NavBar from './core/navbar/navbar';
+import SignUp from './components/signup/signup';
 
 function App() {
-  let students = [
-    {
-      'name': 'ABCD1',
-      'class': 'MCA1'
-    },
-    {
-      'name': 'ABCD2',
-      'class': 'MCA1'
-    },
-    {
-      'name': 'ABCD3',
-      'class': 'MCA2'
-    }
-  ]
-
   return (
     <div className="App">
-      <h1>Welcome</h1>
-      {
-        students.map((student) => (
-          <DisplayRecord student={student} />
-        ))
-      }
+      <NavBar />
+      <SignUp />
     </div>
   );
 }

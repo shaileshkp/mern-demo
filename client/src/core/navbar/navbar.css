@@ -1,0 +1,10 @@
+.navbar-logo {
+    background-image: url('../../assets/images/intagram.png');
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
