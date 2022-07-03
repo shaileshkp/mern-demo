@@ -1,3 +1,3 @@
-export function usersList(req, res) {
-    res.send('usersLis called!')
-}
+// exports.usersList = (req, res) => {
+//     res.send('usersLis called!')
+// }

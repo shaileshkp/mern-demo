@@ -8,3 +8,7 @@
     background-size: cover;
     background-position: 50%;
 }
+
+.navbar {
+    box-shadow: 2px 2px 8px 1px #888888;
+}
