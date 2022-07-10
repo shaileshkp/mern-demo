@@ -36,7 +36,8 @@ class Login extends React.Component {
             }).then((userResp) => {
                 console.log('userResp', userResp)
                 this.setState({})
-                alert('User registered!')
+                localStorage.setItem('IUT', JSON.stringify(userResp.data))
+                alert('User Signin!')
             })
             .catch(err => console.log(err))
         } else {

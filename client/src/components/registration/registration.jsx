@@ -1,7 +1,7 @@
 import React from "react";
 import { signup } from "../../API/user";
-import './signup.css';
-class SignUp extends React.Component {
+import './registration.css';
+class Registration extends React.Component {
 
     constructor(props) {
         super(props);
@@ -87,5 +87,5 @@ class SignUp extends React.Component {
 }
 
 
-export default SignUp;
+export default Registration;
 
